@@ -1,0 +1,65 @@
+
+	/* 页面整体背景色 */
+page {
+		background-color: #f7fafc;
+}
+.profile-page {
+		display: flex;
+		flex-direction: column;
+}
+
+	/* 头部用户信息样式 */
+.profile-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 60rpx 0 80rpx 0;
+		background: linear-gradient(to bottom, #FFD1A8, #FF8C42);
+}
+.avatar {
+		width: 160rpx;
+		height: 160rpx;
+		border-radius: 50%;
+		border: 6rpx solid rgba(255, 255, 255, 0.5);
+}
+.nickname {
+		font-size: 36rpx;
+		font-weight: 600;
+		margin-top: 30rpx;
+		color: #ffffff;
+		text-shadow: 0 2rpx 4rpx rgba(0,0,0,0.1);
+}
+	
+	/* 菜单列表样式 */
+.menu-list {
+		width: auto;
+		margin: -40rpx 30rpx 0 30rpx;
+		background-color: #fff;
+		border-radius: 20rpx;
+		box-shadow: 0 8rpx 20rpx rgba(0,0,0,0.08);
+		padding: 10rpx 0;
+}
+.menu-item {
+		display: flex;
+		align-items: center;
+		padding: 32rpx;
+		border-bottom: 1rpx solid #f0f0f0;
+}
+.menu-item:last-child {
+		border-bottom: none;
+}
+.menu-icon {
+		width: 44rpx;
+		height: 44rpx;
+		margin-right: 24rpx;
+}
+.menu-text {
+		font-size: 30rpx;
+		color: #374151;
+		flex-grow: 1;
+}
+.arrow {
+		font-size: 36rpx;
+		color: #9ca3af;
+}
